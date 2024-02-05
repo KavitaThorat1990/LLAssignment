@@ -1,0 +1,13 @@
+//
+//  Development.xcconfig
+//  ExpressNews
+//
+//  Created by Kavita Thorat on 03/02/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+BASE_URL = https:/$()/api.nytimes.com/svc
+API_KEY = jbZysEfjaWBtnNhs5yivUOAJMNHhzA4F //fa4917c19e7c42b8b4a689025199530c

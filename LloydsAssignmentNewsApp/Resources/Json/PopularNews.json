@@ -1,0 +1,1252 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2024 The New York Times Company.  All Rights Reserved.",
+  "num_results": 20,
+  "results": [
+    {
+      "uri": "nyt://article/8caebd39-4b1c-58b1-8dca-db64a8e8c34f",
+      "url": "https://www.nytimes.com/2024/02/03/us/politics/trump-immunity-appeals-court.html",
+      "id": 100000009294339,
+      "asset_id": 100000009294339,
+      "source": "New York Times",
+      "published_date": "2024-02-03",
+      "updated": "2024-02-03 09:11:59",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Federal Criminal Case Against Trump (2020 Election Case);Immunity from Prosecution;Presidential Election of 2024;United States Politics and Government;Trump, Donald J;Chutkan, Tanya S;Childs, J Michelle;Henderson, Karen LeCraft;Pan, Florence Y;Justice Department;Supreme Court (US)",
+      "column": null,
+      "byline": "By Alan Feuer and Charlie Savage",
+      "type": "Article",
+      "title": "After Speedy Start, Appeals Court Slows Down on Trump Immunity Decision",
+      "abstract": "The implications have started coming into focus with the scrapping of March 4 as the start date for the former president’s federal trial on charges of trying to overturn the 2020 election.",
+      "des_facet": [
+        "Federal Criminal Case Against Trump (2020 Election Case)",
+        "Immunity from Prosecution",
+        "Presidential Election of 2024",
+        "United States Politics and Government"
+      ],
+      "org_facet": [
+        "Justice Department",
+        "Supreme Court (US)"
+      ],
+      "per_facet": [
+        "Trump, Donald J",
+        "Chutkan, Tanya S",
+        "Childs, J Michelle",
+        "Henderson, Karen LeCraft",
+        "Pan, Florence Y"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Lawyers argued their claims nearly a month ago before a three-judge panel of the U.S. Court of Appeals for the District of Columbia Circuit.",
+          "copyright": "Michael Reynolds/EPA, via Shutterstock",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/02/03/multimedia/03dc-trump-immunity-lthj/03dc-trump-immunity-lthj-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/03/multimedia/03dc-trump-immunity-lthj/03dc-trump-immunity-lthj-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/03/multimedia/03dc-trump-immunity-lthj/03dc-trump-immunity-lthj-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/68361b58-b73c-5326-b93f-ae118ecaeda3",
+      "url": "https://www.nytimes.com/2024/02/03/opinion/gaza-israel-war-children.html",
+      "id": 100000009294025,
+      "asset_id": 100000009294025,
+      "source": "New York Times",
+      "published_date": "2024-02-03",
+      "updated": "2024-02-04 10:05:39",
+      "section": "Opinion",
+      "subsection": "",
+      "nytdsection": "opinion",
+      "adx_keywords": "Israel-Gaza War (2023- );Defense and Military Forces;Palestinians;Civilian Casualties;Children and Childhood;Terrorism;Politics and Government;War Crimes, Genocide and Crimes Against Humanity;International Relations;United States International Relations;Hamas;United Nations Relief and Works Agency;Israel;Gaza Strip",
+      "column": null,
+      "byline": "By Nicholas Kristof",
+      "type": "Article",
+      "title": "What Can We Possibly Say to the Children of Gaza?",
+      "abstract": "Yes, Israel has the right to defend itself, but that doesn’t excuse this many civilian deaths.",
+      "des_facet": [
+        "Israel-Gaza War (2023- )",
+        "Defense and Military Forces",
+        "Palestinians",
+        "Civilian Casualties",
+        "Children and Childhood",
+        "Terrorism",
+        "Politics and Government",
+        "War Crimes, Genocide and Crimes Against Humanity",
+        "International Relations",
+        "United States International Relations"
+      ],
+      "org_facet": [
+        "Hamas",
+        "United Nations Relief and Works Agency"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "Israel",
+        "Gaza Strip"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Mahmud Hams/Agence France-Presse — Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/02/03/multimedia/03kristof-qvwm/03kristof-qvwm-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/03/multimedia/03kristof-qvwm/03kristof-qvwm-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/03/multimedia/03kristof-qvwm/03kristof-qvwm-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/b032a34d-abe6-516b-ad92-0103cfcb92b3",
+      "url": "https://www.nytimes.com/2024/02/02/arts/television/curb-your-enthusiasm-made-something-out-of-nothing.html",
+      "id": 100000009282352,
+      "asset_id": 100000009282352,
+      "source": "New York Times",
+      "published_date": "2024-02-02",
+      "updated": "2024-02-03 23:24:18",
+      "section": "Arts",
+      "subsection": "Television",
+      "nytdsection": "arts",
+      "adx_keywords": "David, Larry;Home Box Office",
+      "column": null,
+      "byline": "By James Poniewozik",
+      "type": "Article",
+      "title": "‘Curb Your Enthusiasm’ Made Something Out of Nothing",
+      "abstract": "Larry David’s HBO series never aimed at grand statements. But its reflection of modern grievances was pretty, pretty good.",
+      "des_facet": [],
+      "org_facet": [
+        "Home Box Office"
+      ],
+      "per_facet": [
+        "David, Larry"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "On “Curb,” David has starred as “Larry David,” simultaneously the world’s most comfortable and uncomfortable man.",
+          "copyright": "John Johnson/HBO",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/02/02/multimedia/02curb-notebook-promo/02curb-notebook-promo-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/02/multimedia/02curb-notebook-promo/02curb-notebook-promo-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/02/multimedia/02curb-notebook-promo/02curb-notebook-promo-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://interactive/664dc319-cf30-57f2-808b-67dffb44a845",
+      "url": "https://www.nytimes.com/interactive/2024/02/02/briefing/news-quiz-israel-jordan.html",
+      "id": 100000009293049,
+      "asset_id": 100000009293049,
+      "source": "New York Times",
+      "published_date": "2024-02-02",
+      "updated": "2024-02-02 05:03:27",
+      "section": "Briefing",
+      "subsection": "",
+      "nytdsection": "briefing",
+      "adx_keywords": "Content Type: Quiz",
+      "column": null,
+      "byline": "",
+      "type": "Interactive",
+      "title": "The New York Times News Quiz, Feb. 2, 2024",
+      "abstract": "Did you follow the news this week? Take our quiz to see how well you stack up with other Times readers.",
+      "des_facet": [
+        "Content Type: Quiz"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "",
+          "caption": "",
+          "copyright": "Pete Marovich for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/02/01/multimedia/01new-quiz-mayorkas-pvjm/01new-quiz-mayorkas-pvjm-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/01/multimedia/01new-quiz-mayorkas-pvjm/01new-quiz-mayorkas-pvjm-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/01/multimedia/01new-quiz-mayorkas-pvjm/01new-quiz-mayorkas-pvjm-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/5e314a48-2f61-5e1c-8e03-28e94d5817f8",
+      "url": "https://www.nytimes.com/2024/02/03/arts/television/fox-news-taylor-swift.html",
+      "id": 100000009293587,
+      "asset_id": 100000009293587,
+      "source": "New York Times",
+      "published_date": "2024-02-03",
+      "updated": "2024-02-03 11:47:42",
+      "section": "Arts",
+      "subsection": "Television",
+      "nytdsection": "arts",
+      "adx_keywords": "Television;Celebrities;News and News Media;Pop and Rock Music;United States Politics and Government;Conservatism (US Politics);Football;Swift, Taylor;Fox News Channel",
+      "column": null,
+      "byline": "By James Poniewozik",
+      "type": "Article",
+      "title": "Fox News Suddenly Wants Celebrities Out of Politics. Well, One Celebrity.",
+      "abstract": "The news network that wants Taylor Swift to stick to singing has had no problem handing conservative celebrities the microphone.",
+      "des_facet": [
+        "Television",
+        "Celebrities",
+        "News and News Media",
+        "Pop and Rock Music",
+        "United States Politics and Government",
+        "Conservatism (US Politics)",
+        "Football"
+      ],
+      "org_facet": [
+        "Fox News Channel"
+      ],
+      "per_facet": [
+        "Swift, Taylor"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Taylor Swift has drawn the speculative ire of Fox News in recent weeks.",
+          "copyright": "Michael Tran/Agence France-Presse — Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/02/02/multimedia/02swift-fox-notebook-jtwp/02swift-fox-notebook-jtwp-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/02/multimedia/02swift-fox-notebook-jtwp/02swift-fox-notebook-jtwp-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/02/multimedia/02swift-fox-notebook-jtwp/02swift-fox-notebook-jtwp-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/3b463a09-ff40-53ef-ba35-c1685799868a",
+      "url": "https://www.nytimes.com/2024/02/03/us/libraries-book-bans.html",
+      "id": 100000009261637,
+      "asset_id": 100000009261637,
+      "source": "New York Times",
+      "published_date": "2024-02-03",
+      "updated": "2024-02-04 09:28:45",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Libraries and Librarians;Books and Literature;Censorship;Transgender;Freedom of Speech and Expression;American Library Assn;Blue Hill (Me)",
+      "column": null,
+      "byline": "By Elizabeth Williamson",
+      "type": "Article",
+      "title": "‘My Heart Sank’: In Maine, a Challenge to a Book, and to a Town’s Self-Image",
+      "abstract": "Wealthy, liberal-leaning Blue Hill prided itself on staying above the fray — until the library stocked a book that drew anger from the left.",
+      "des_facet": [
+        "Libraries and Librarians",
+        "Books and Literature",
+        "Censorship",
+        "Transgender",
+        "Freedom of Speech and Expression"
+      ],
+      "org_facet": [
+        "American Library Assn"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "Blue Hill (Me)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Blue Hill Public Library faced backlash for carrying a book that suggests gender dysphoria is a “diagnostic craze” fueled by adolescent confusion.",
+          "copyright": "Tristan Spinski for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/02/02/multimedia/00dc-libraries-sidebar-01-mklq/00dc-libraries-sidebar-01-mklq-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/02/multimedia/00dc-libraries-sidebar-01-mklq/00dc-libraries-sidebar-01-mklq-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/02/multimedia/00dc-libraries-sidebar-01-mklq/00dc-libraries-sidebar-01-mklq-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/d23ab2df-a6bb-5b63-b94f-5e5de8e92872",
+      "url": "https://www.nytimes.com/2024/02/03/health/dementia-spouses-nursing-homes.html",
+      "id": 100000009289523,
+      "asset_id": 100000009289523,
+      "source": "New York Times",
+      "published_date": "2024-02-03",
+      "updated": "2024-02-03 12:13:06",
+      "section": "Health",
+      "subsection": "",
+      "nytdsection": "health",
+      "adx_keywords": "Elderly;Nursing Homes;Elder Care;Dementia;Depression (Mental);Alzheimer's Disease;Memory;Families and Family Life;Mental Health and Disorders;Long-Term Care Insurance;Anxiety and Stress",
+      "column": null,
+      "byline": "By Paula Span",
+      "type": "Article",
+      "title": "When a Spouse Goes to the Nursing Home",
+      "abstract": "The move to a long-term care facility is often difficult but necessary for frail patients. For their partners, it can mean a new set of challenges.",
+      "des_facet": [
+        "Elderly",
+        "Nursing Homes",
+        "Elder Care",
+        "Dementia",
+        "Depression (Mental)",
+        "Alzheimer's Disease",
+        "Memory",
+        "Families and Family Life",
+        "Mental Health and Disorders",
+        "Long-Term Care Insurance",
+        "Anxiety and Stress"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "After moving his partner of 33 years to a nursing home, Joseph Drolet, a retired lawyer in Atlanta, said his fear of what would happen to her if he died or became disabled has abated.",
+          "copyright": "Audra Melton for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/02/06/multimedia/03SCI-SPAN-mlcp/03SCI-SPAN-mlcp-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/06/multimedia/03SCI-SPAN-mlcp/03SCI-SPAN-mlcp-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/06/multimedia/03SCI-SPAN-mlcp/03SCI-SPAN-mlcp-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/3b48cdac-29ed-5321-b021-61fed9a712f0",
+      "url": "https://www.nytimes.com/2024/02/03/us/texas-convoy-border-eagle-pass.html",
+      "id": 100000009294757,
+      "asset_id": 100000009294757,
+      "source": "New York Times",
+      "published_date": "2024-02-03",
+      "updated": "2024-02-03 19:52:30",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Demonstrations, Protests and Riots;Illegal Immigration;Immigration and Emigration;Eagle Pass (Tex);Texas",
+      "column": null,
+      "byline": "By J. David Goodman",
+      "type": "Article",
+      "title": "At Rally for Border Security in Texas, Fears of ‘Invasion’ and ‘Civil War’",
+      "abstract": "A conservative convoy gathered on the Texas border to support the state’s defiant stance on immigration. Despite worries over potential violence, the event was peaceful.",
+      "des_facet": [
+        "Demonstrations, Protests and Riots",
+        "Illegal Immigration",
+        "Immigration and Emigration"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Eagle Pass (Tex)",
+        "Texas"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The “Take Our Border Back” convoy of people concerned about illegal immigration arriving at Cornerstone Children’s Ranch, just north of Eagle Pass, in Quemado, Texas.",
+          "copyright": "Erin Schaff/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/02/03/multimedia/03nat-texas-convoy-zjbv/03nat-texas-convoy-zjbv-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/03/multimedia/03nat-texas-convoy-zjbv/03nat-texas-convoy-zjbv-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/03/multimedia/03nat-texas-convoy-zjbv/03nat-texas-convoy-zjbv-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/fa9d6d0a-9ced-5fd1-bc12-76d9e6dd4b1d",
+      "url": "https://www.nytimes.com/2024/02/03/opinion/donald-trump-taylor-swift.html",
+      "id": 100000009295570,
+      "asset_id": 100000009295570,
+      "source": "New York Times",
+      "published_date": "2024-02-03",
+      "updated": "2024-02-03 15:57:27",
+      "section": "Opinion",
+      "subsection": "",
+      "nytdsection": "opinion",
+      "adx_keywords": "Presidential Election of 2024;Football;Super Bowl;Trump, Donald J;Swift, Taylor;Kelce, Travis",
+      "column": null,
+      "byline": "By Maureen Dowd",
+      "type": "Article",
+      "title": "Inside Trump’s Not-So-Swift Brain",
+      "abstract": "There’s no doubt Donald can’t shake off Taylor.",
+      "des_facet": [
+        "Presidential Election of 2024",
+        "Football",
+        "Super Bowl"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Trump, Donald J",
+        "Swift, Taylor",
+        "Kelce, Travis"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Ed Zurga/Associated Press",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/02/03/multimedia/03dowd-wcfv/03dowd-wcfv-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/03/multimedia/03dowd-wcfv/03dowd-wcfv-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/03/multimedia/03dowd-wcfv/03dowd-wcfv-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/2eeb34e5-bd0e-51fe-8757-f31b439d9e0d",
+      "url": "https://www.nytimes.com/2024/02/03/us/la-graffiti-building.html",
+      "id": 100000009296151,
+      "asset_id": 100000009296151,
+      "source": "New York Times",
+      "published_date": "2024-02-03",
+      "updated": "2024-02-03 21:18:32",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Buildings (Structures);Graffiti;Grammy Awards;Police;de Leon, Kevin;Los Angeles (Calif)",
+      "column": null,
+      "byline": "By Rebecca Carballo",
+      "type": "Article",
+      "title": "Multiple Floors of Los Angeles Skyscrapers Are Covered in Graffiti",
+      "abstract": "The graffiti has brought attention to the empty buildings, which have been abandoned since 2019 and are across from the venue where the Grammy Awards will be hosted on Sunday.",
+      "des_facet": [
+        "Buildings (Structures)",
+        "Graffiti",
+        "Grammy Awards",
+        "Police"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "de Leon, Kevin"
+      ],
+      "geo_facet": [
+        "Los Angeles (Calif)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Graffiti covering multiple stories of an unfinished skyscraper development in downtown Los Angeles.",
+          "copyright": "Mario Tama/Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/02/03/multimedia/03xp-graffiti-2-fjwk/03xp-graffiti-2-fjwk-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/03/multimedia/03xp-graffiti-2-fjwk/03xp-graffiti-2-fjwk-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/03/multimedia/03xp-graffiti-2-fjwk/03xp-graffiti-2-fjwk-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/c8ac4263-a44a-5a21-a73a-16b58d4e1996",
+      "url": "https://www.nytimes.com/2024/02/03/opinion/america-china-future.html",
+      "id": 100000009294377,
+      "asset_id": 100000009294377,
+      "source": "New York Times",
+      "published_date": "2024-02-03",
+      "updated": "2024-02-03 15:56:38",
+      "section": "Opinion",
+      "subsection": "",
+      "nytdsection": "opinion",
+      "adx_keywords": "International Relations;United States International Relations;United States Politics and Government;Beijing (China);China;Europe;Houston (Tex);Japan;San Francisco (Calif);Shanghai (China);Singapore;United States;Thailand",
+      "column": null,
+      "byline": "By Ross Douthat",
+      "type": "Article",
+      "title": "Only America Can Save the Future",
+      "abstract": "A strange but optimistic vision.",
+      "des_facet": [
+        "International Relations",
+        "United States International Relations",
+        "United States Politics and Government"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Beijing (China)",
+        "China",
+        "Europe",
+        "Houston (Tex)",
+        "Japan",
+        "San Francisco (Calif)",
+        "Shanghai (China)",
+        "Singapore",
+        "United States",
+        "Thailand"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Johannes Eisele/Agence France-Presse — Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/02/03/opinion/03douthat1a/03douthat1a-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/03/opinion/03douthat1a/03douthat1a-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/03/opinion/03douthat1a/03douthat1a-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/745f06ed-cbe7-5c7a-83a9-9847cbc7788b",
+      "url": "https://www.nytimes.com/2024/02/03/world/europe/germany-russia.html",
+      "id": 100000009288747,
+      "asset_id": 100000009288747,
+      "source": "New York Times",
+      "published_date": "2024-02-03",
+      "updated": "2024-02-03 10:10:57",
+      "section": "World",
+      "subsection": "Europe",
+      "nytdsection": "world",
+      "adx_keywords": "International Relations;Politics and Government;Defense and Military Forces;United States International Relations;Polls and Public Opinion;Russian Invasion of Ukraine (2022);United States Politics and Government;Missiles and Missile Defense Systems;Presidential Election of 2024;Biden, Joseph R Jr;Macron, Emmanuel (1977- );Pistorius, Boris;Putin, Vladimir V;Scholz, Olaf (1958- );Trump, Donald J;Christian Democratic Union (Germany);North Atlantic Treaty Organization;Social Democratic Party (Germany);Europe;Germany;Ukraine",
+      "column": null,
+      "byline": "By Steven Erlanger and David E. Sanger",
+      "type": "Article",
+      "title": "Germany Braces for Decades of Confrontation With Russia",
+      "abstract": "Leaders are sounding alarms about growing threats, but Chancellor Olaf Scholz is wary of pushing the Kremlin, and his own ambivalent public, too far.",
+      "des_facet": [
+        "International Relations",
+        "Politics and Government",
+        "Defense and Military Forces",
+        "United States International Relations",
+        "Polls and Public Opinion",
+        "Russian Invasion of Ukraine (2022)",
+        "United States Politics and Government",
+        "Missiles and Missile Defense Systems",
+        "Presidential Election of 2024"
+      ],
+      "org_facet": [
+        "Christian Democratic Union (Germany)",
+        "North Atlantic Treaty Organization",
+        "Social Democratic Party (Germany)"
+      ],
+      "per_facet": [
+        "Biden, Joseph R Jr",
+        "Macron, Emmanuel (1977- )",
+        "Pistorius, Boris",
+        "Putin, Vladimir V",
+        "Scholz, Olaf (1958- )",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [
+        "Europe",
+        "Germany",
+        "Ukraine"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Chancellor Olaf Scholz of Germany speaking to the defense minister, Boris Pistorius, second from right, on Wednesday at the German Bundestag in Berlin.",
+          "copyright": "Ebrahim Noroozi/Associated Press",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/02/04/multimedia/04germany-security-01-lhzm/04germany-security-01-lhzm-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/04/multimedia/04germany-security-01-lhzm/04germany-security-01-lhzm-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/04/multimedia/04germany-security-01-lhzm/04germany-security-01-lhzm-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/d9e9f2ee-3be8-5469-9e23-4e12931ee790",
+      "url": "https://www.nytimes.com/2024/02/02/opinion/transgender-children-gender-dysphoria.html",
+      "id": 100000009287151,
+      "asset_id": 100000009287151,
+      "source": "New York Times",
+      "published_date": "2024-02-02",
+      "updated": "2024-02-03 16:52:32",
+      "section": "Opinion",
+      "subsection": "",
+      "nytdsection": "opinion",
+      "adx_keywords": "Transgender;Mental Health and Disorders;Homosexuality and Bisexuality;Teenagers and Adolescence;Children and Childhood;Psychology and Psychologists;Therapy and Rehabilitation;Suicides and Suicide Attempts;Politics and Government",
+      "column": null,
+      "byline": "By Pamela Paul",
+      "type": "Article",
+      "title": "As Kids, They Thought They Were Trans. They No Longer Do.",
+      "abstract": "Trans activists have pushed an ideological extremism by pressing for an unproven treatment orthodoxy.",
+      "des_facet": [
+        "Transgender",
+        "Mental Health and Disorders",
+        "Homosexuality and Bisexuality",
+        "Teenagers and Adolescence",
+        "Children and Childhood",
+        "Psychology and Psychologists",
+        "Therapy and Rehabilitation",
+        "Suicides and Suicide Attempts",
+        "Politics and Government"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Grace Powell",
+          "copyright": "Janick Gilpin for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/02/02/multimedia/02paul1-chkm/02paul1-chkm-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/02/multimedia/02paul1-chkm/02paul1-chkm-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/02/multimedia/02paul1-chkm/02paul1-chkm-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/05b11025-b65b-59ec-9762-fe8f7b6ba74c",
+      "url": "https://www.nytimes.com/2024/01/30/well/eat/alcohol-gut-health-microbiome.html",
+      "id": 100000009276252,
+      "asset_id": 100000009276252,
+      "source": "New York Times",
+      "published_date": "2024-01-30",
+      "updated": "2024-02-01 12:46:59",
+      "section": "Well",
+      "subsection": "Eat",
+      "nytdsection": "well",
+      "adx_keywords": "Alcoholic Beverages;Digestive Tract;Alcohol Abuse;Research;Diet and Nutrition;Content Type: Service",
+      "column": null,
+      "byline": "By Alice Callahan",
+      "type": "Article",
+      "title": "How Does Alcohol Affect the Gut Microbiome?",
+      "abstract": "Scientists are just beginning to explore the relationship between drinking and the good and bad bacteria in your gut.",
+      "des_facet": [
+        "Alcoholic Beverages",
+        "Digestive Tract",
+        "Alcohol Abuse",
+        "Research",
+        "Diet and Nutrition",
+        "Content Type: Service"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Mojo Wang",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/02/06/well/30Well-Alcohol-Microbiome/30Well-Alcohol-Microbiome-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/06/well/30Well-Alcohol-Microbiome/30Well-Alcohol-Microbiome-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/06/well/30Well-Alcohol-Microbiome/30Well-Alcohol-Microbiome-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/9adeb8e9-1bcc-52b4-a97d-7373db080ee7",
+      "url": "https://www.nytimes.com/2024/01/30/us/politics/taylor-swift-travis-kelce-trump.html",
+      "id": 100000009287031,
+      "asset_id": 100000009287031,
+      "source": "New York Times",
+      "published_date": "2024-01-30",
+      "updated": "2024-02-02 13:35:49",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Conspiracy Theories;Right-Wing Extremism and Alt-Right;Presidential Election of 2024;Pop and Rock Music;Football;Super Bowl;United States Politics and Government;audio-neutral-informative;Swift, Taylor;Kelce, Travis;Trump, Donald J;Biden, Joseph R Jr;Kansas City Chiefs;National Football League;Make America Great Again (MAGA) Inc",
+      "column": null,
+      "byline": "By Jonathan Weisman",
+      "type": "Article",
+      "title": "Taylor Swift, Travis Kelce and a MAGA Meltdown",
+      "abstract": "The fulminations surrounding the world’s biggest pop icon — and girlfriend of Chiefs tight end Travis Kelce — reached the stratosphere after Kansas City made it to the Super Bowl.",
+      "des_facet": [
+        "Conspiracy Theories",
+        "Right-Wing Extremism and Alt-Right",
+        "Presidential Election of 2024",
+        "Pop and Rock Music",
+        "Football",
+        "Super Bowl",
+        "United States Politics and Government",
+        "audio-neutral-informative"
+      ],
+      "org_facet": [
+        "Kansas City Chiefs",
+        "National Football League",
+        "Make America Great Again (MAGA) Inc"
+      ],
+      "per_facet": [
+        "Swift, Taylor",
+        "Kelce, Travis",
+        "Trump, Donald J",
+        "Biden, Joseph R Jr"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Taylor Swift and Travis Kelce after the Chiefs’ victory on Sunday. They are the focus of right-wing vitriol and conspiracy theories.",
+          "copyright": "Julio Cortez/Associated Press",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/01/29/multimedia/29pol-taylor-topart-ckzf/29pol-taylor-topart-ckzf-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/01/29/multimedia/29pol-taylor-topart-ckzf/29pol-taylor-topart-ckzf-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/01/29/multimedia/29pol-taylor-topart-ckzf/29pol-taylor-topart-ckzf-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/bc87e5eb-d799-58ac-b55f-c5867ef70a4d",
+      "url": "https://www.nytimes.com/2024/02/03/us/politics/trump-ronna-mcdaniel-rnc.html",
+      "id": 100000009293041,
+      "asset_id": 100000009293041,
+      "source": "New York Times",
+      "published_date": "2024-02-03",
+      "updated": "2024-02-03 13:40:37",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Presidential Election of 2024;McDaniel, Ronna Romney;Trump, Donald J;Republican National Committee;Turning Point Action Inc;Las Vegas (Nev)",
+      "column": null,
+      "byline": "By Shane Goldmacher",
+      "type": "Article",
+      "title": "At R.N.C. Meeting, Talk Is of Coming Trump Merger and Chairwoman’s Fate",
+      "abstract": "Donald Trump has long worked closely with Ronna McDaniel, the head of the Republican National Committee. In private, he has begun to question its direction under her leadership.",
+      "des_facet": [
+        "Presidential Election of 2024"
+      ],
+      "org_facet": [
+        "Republican National Committee",
+        "Turning Point Action Inc"
+      ],
+      "per_facet": [
+        "McDaniel, Ronna Romney",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [
+        "Las Vegas (Nev)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Donald J. Trump and the Republican National Committee chairwoman, Ronna McDaniel, in 2017. Mr. Trump appointed Ms. McDaniel to her post after his victory in the 2016 presidential contest.",
+          "copyright": "Zach Gibson for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/02/02/multimedia/02pol-trump-rnc-topart-cwbk/02pol-trump-rnc-topart-cwbk-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/02/multimedia/02pol-trump-rnc-topart-cwbk/02pol-trump-rnc-topart-cwbk-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/02/multimedia/02pol-trump-rnc-topart-cwbk/02pol-trump-rnc-topart-cwbk-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/b284de85-b4c4-5efe-86d6-605aa26517ed",
+      "url": "https://www.nytimes.com/article/best-netflix-movies.html",
+      "id": 100000008984516,
+      "asset_id": 100000008984516,
+      "source": "New York Times",
+      "published_date": "2023-07-07",
+      "updated": "2024-02-01 20:28:17",
+      "section": "Movies",
+      "subsection": "",
+      "nytdsection": "movies",
+      "adx_keywords": "Movies;Netflix Inc",
+      "column": null,
+      "byline": "By Jason Bailey",
+      "type": "Article",
+      "title": "The 50 Best Movies on Netflix Right Now",
+      "abstract": "There are so many film experiences to choose from on Netflix, let us help you narrow down your choices.",
+      "des_facet": [
+        "Movies"
+      ],
+      "org_facet": [
+        "Netflix Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Tom Cruise, left, and Jamie Foxx in “Collateral.”",
+          "copyright": "DreamWorks Pictures",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/08/04/multimedia/netflix-streaming-cpwq/netflix-streaming-cpwq-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/08/04/multimedia/netflix-streaming-cpwq/netflix-streaming-cpwq-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/08/04/multimedia/netflix-streaming-cpwq/netflix-streaming-cpwq-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/7c714fa4-591c-546c-8b01-4bd06f7db418",
+      "url": "https://www.nytimes.com/2024/01/01/books/review/hitch-in-time-christopher-hitchens.html",
+      "id": 100000009242719,
+      "asset_id": 100000009242719,
+      "source": "New York Times",
+      "published_date": "2024-01-01",
+      "updated": "2024-01-17 23:58:20",
+      "section": "Books",
+      "subsection": "Book Review",
+      "nytdsection": "books",
+      "adx_keywords": "Writing and Writers;Content Type: Personal Profile;Books and Literature;Hitchens, Christopher",
+      "column": null,
+      "byline": "By Dwight Garner",
+      "type": "Article",
+      "title": "Want to Feel, Intellectually, Like Someone Is Rotating Your Tires?",
+      "abstract": "This bracing anthology of Christopher Hitchens’s work for The London Review of Books is just the ticket.",
+      "des_facet": [
+        "Writing and Writers",
+        "Content Type: Personal Profile",
+        "Books and Literature"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Hitchens, Christopher"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Christopher Hitchens in 1999.",
+          "copyright": "Justin Lane",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/01/21/multimedia/21HITCHENS-REVIEW-mpfh/01HITCHENS-REVIEW-mpfh-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/01/21/multimedia/21HITCHENS-REVIEW-mpfh/01HITCHENS-REVIEW-mpfh-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/01/21/multimedia/21HITCHENS-REVIEW-mpfh/01HITCHENS-REVIEW-mpfh-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/22dd4544-691a-533c-b1f8-fdc875ae947c",
+      "url": "https://www.nytimes.com/2024/02/03/us/politics/blinken-gaza-protests.html",
+      "id": 100000009293436,
+      "asset_id": 100000009293436,
+      "source": "New York Times",
+      "published_date": "2024-02-03",
+      "updated": "2024-02-03 07:10:47",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Israel-Gaza War (2023- );Palestinians;Demonstrations, Protests and Riots;War Crimes, Genocide and Crimes Against Humanity;United States International Relations;Biden, Joseph R Jr;Blinken, Antony J;Gaza Strip;Israel",
+      "column": null,
+      "byline": "By Michael Crowley",
+      "type": "Article",
+      "title": "As Face of Biden’s Israel Policy, Blinken Draws Wrath of Gaza War Protesters",
+      "abstract": "Demonstrators have turned up at the secretary of state’s home and even splashed fake blood on his motorcade.",
+      "des_facet": [
+        "Israel-Gaza War (2023- )",
+        "Palestinians",
+        "Demonstrations, Protests and Riots",
+        "War Crimes, Genocide and Crimes Against Humanity",
+        "United States International Relations"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Biden, Joseph R Jr",
+        "Blinken, Antony J"
+      ],
+      "geo_facet": [
+        "Gaza Strip",
+        "Israel"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Organizers of protests outside the home of Secretary of State Antony J. Blinken have called their effort “Occupy Blinken.” ",
+          "copyright": "Roberto Schmidt/Agence France-Presse — Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/02/02/multimedia/02dc-blinken-01-cmgf/02dc-blinken-01-cmgf-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/02/multimedia/02dc-blinken-01-cmgf/02dc-blinken-01-cmgf-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/02/multimedia/02dc-blinken-01-cmgf/02dc-blinken-01-cmgf-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/38550dd2-0376-57a6-9446-41d3bbbad371",
+      "url": "https://www.nytimes.com/2024/02/01/style/pookie-jett-tiktok-campbell-puckett.html",
+      "id": 100000009291293,
+      "asset_id": 100000009291293,
+      "source": "New York Times",
+      "published_date": "2024-02-01",
+      "updated": "2024-02-02 20:06:41",
+      "section": "Style",
+      "subsection": "",
+      "nytdsection": "style",
+      "adx_keywords": "Social Media;Fashion and Apparel",
+      "column": null,
+      "byline": "By Madison Malone Kircher",
+      "type": "Article",
+      "title": "A Couple Went Viral. Then the Internet Started Digging.",
+      "abstract": "Pookie is looking absolutely fire tonight.",
+      "des_facet": [
+        "Social Media",
+        "Fashion and Apparel"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Pucketts, a married couple who live in Georgia, rose to prominence on TikTok, where Ms. Puckett regularly posts videos of the couple modeling their outfits.",
+          "copyright": "Campbell Puckett",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/02/01/fashion/01POOKIE-AND-JETT/01POOKIE-AND-JETT-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/01/fashion/01POOKIE-AND-JETT/01POOKIE-AND-JETT-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/02/01/fashion/01POOKIE-AND-JETT/01POOKIE-AND-JETT-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    }
+  ]
+}
