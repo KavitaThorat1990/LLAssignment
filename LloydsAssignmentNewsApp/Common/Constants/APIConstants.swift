@@ -13,7 +13,6 @@ struct APIConstants {
     struct EndPoints {
         static let mostPopular = "/mostpopular/v2/viewed/7.json"
         static let topStories = "/topstories/v2/"
-        static let sources = "/top-headlines/sources"
     }
     
     struct LocalJson {
