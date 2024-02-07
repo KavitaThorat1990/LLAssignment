@@ -10,7 +10,7 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
-    var coordinator: NewsAppCoordinator?
+    var navigator: NewsAppNavigator?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -20,9 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         window = UIWindow(frame: UIScreen.main.bounds)
         let navController = UINavigationController()
-        coordinator = NewsAppCoordinator(navigationController: navController)
-        window?.rootViewController = coordinator?.navigationController
-        coordinator?.start(with: mockFlow)
+        navigator = NewsAppNavigator(navigationController: navController)
+        window?.rootViewController = navigator?.navigationController
+        navigator?.start(with: mockFlow)
         window?.makeKeyAndVisible()
         navigationBarSetup()
         return true

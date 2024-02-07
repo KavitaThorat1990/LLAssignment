@@ -53,6 +53,7 @@ struct NewsDetailView: View {
                     }.accessibilityIdentifier(Constants.AccessibilityIds.seeMoreButton)
                     .foregroundColor(.blue)
                     .padding(.top, 8)
+                    Spacer()
                 }
             }
         }

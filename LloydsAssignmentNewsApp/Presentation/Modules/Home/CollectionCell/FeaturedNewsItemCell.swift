@@ -18,6 +18,7 @@ struct FeaturedNewsItemCell: View {
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(maxWidth: .infinity, maxHeight: 200)
+                .cornerRadius(8)
             
             NewsTitleView(title: cellViewModel.newsTitle())
                 .background(

@@ -9,7 +9,7 @@ import Foundation
 
 struct Constants {
     static let defaultCategories = ["Arts", "Science", "World"]
-    static let timeInterval = 5.0
+    static let timeInterval = 3.0
     
     struct CellHeights {
         static let featuredCell = 200.0

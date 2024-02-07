@@ -10,7 +10,7 @@ import SwiftUI
 
 final class NewsDetailsViewController: UIViewController {
     var viewModel: NewsDetailsViewModel?
-    weak var coordinator: NewsAppCoordinator?
+    weak var Navigator: NewsAppNavigator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +24,7 @@ final class NewsDetailsViewController: UIViewController {
         }
         let detailsView =  NewsDetailView(viewModel: model, openNewsURL: { [weak self] in
             if let url = model.newsUrl() {
-                self?.coordinator?.openUrl(url)
+                self?.Navigator?.openUrl(url)
             }
         })
         

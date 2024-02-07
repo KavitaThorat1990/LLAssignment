@@ -1,5 +1,5 @@
 //
-//  NewsAppCoordinator.swift
+//  NewsAppNavigator.swift
 //  ExpressNews
 //
 //  Created by Kavita Thorat on 03/02/24.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class NewsAppCoordinator: Coordinator {
+final class NewsAppNavigator: Navigator {
     var navigationController: UINavigationController
 
     init(navigationController: UINavigationController) {
@@ -20,7 +20,7 @@ final class NewsAppCoordinator: Coordinator {
     
     func navigateToHome(with mockFlow: Bool = false) {
         let homeViewController = HomeViewController()
-        homeViewController.coordinator = self
+        homeViewController.navigator = self
         homeViewController.viewModel = HomeViewModel(homeNewsUseCase: UseCaseFactory.createHomeNewsUseCase(isMock: mockFlow))
         navigateTo(presentationStyle: .push, toViewController: homeViewController)
     }
@@ -36,7 +36,7 @@ final class NewsAppCoordinator: Coordinator {
     
     func navigateToNewsDetails(_ news: ArticleDomainModel) {
         let newsDetailsViewController = NewsDetailsViewController()
-        newsDetailsViewController.coordinator = self
+        newsDetailsViewController.Navigator = self
         newsDetailsViewController.viewModel = NewsDetailsViewModel(newsArticle: news, imageUseCase: UseCaseFactory.createImageUseCase())
         navigateTo(presentationStyle: .push, toViewController: newsDetailsViewController)
     }

@@ -20,7 +20,7 @@ final class HomeViewController: UIViewController {
 
     var viewModel: HomeViewModel?
     private var featuredNewsCell: FeaturedNewsCell?
-    weak var coordinator: NewsAppCoordinator?
+    weak var navigator: NewsAppNavigator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,7 +62,7 @@ final class HomeViewController: UIViewController {
         tableView.register(UITableViewHeaderFooterView.self, forHeaderFooterViewReuseIdentifier: Constants.CellIds.newsCategoryHeader)
         featuredNewsCell = tableView.dequeueReusableCell(withIdentifier: Constants.CellIds.featuredNewsCell) as? FeaturedNewsCell
         featuredNewsCell?.didSelectNews = {[weak self] news in
-            self?.coordinator?.navigateToNewsDetails(news)
+            self?.navigator?.navigateToNewsDetails(news)
         }
     }
 
@@ -166,7 +166,7 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         if let news = viewModel?.getNewsForSection(section: indexPath.section)[indexPath.row] {
-            coordinator?.navigateToNewsDetails(news)
+            navigator?.navigateToNewsDetails(news)
         }
     }
     

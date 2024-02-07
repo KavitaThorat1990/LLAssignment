@@ -69,6 +69,11 @@ final class FeaturedNewsCell: UITableViewCell {
         pageControl.numberOfPages = cellViewModel.getNumberOfRows()
     }
 
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        collectionView.reloadData()
+    }
+    
     func configure(with payload: [String: Any]) {
         self.payload = payload
         pageControl.numberOfPages = cellViewModel.getNumberOfRows()
@@ -137,7 +142,6 @@ extension FeaturedNewsCell: UICollectionViewDataSource {
 
 extension FeaturedNewsCell: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        cellViewModel.didSelectItemAt(indexPath: indexPath)
         if let news = cellViewModel.getNewsForRow(index: indexPath.item) {
             didSelectNews?(news)
         }
@@ -146,7 +150,7 @@ extension FeaturedNewsCell: UICollectionViewDelegate {
 
 extension FeaturedNewsCell: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let width = UIScreen.main.bounds.width // Use the screen width
+        let width = contentView.bounds.width
         let height = collectionView.bounds.height
         return CGSize(width: width, height: height)
     }
