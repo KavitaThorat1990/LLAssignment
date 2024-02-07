@@ -8,7 +8,7 @@
 import Foundation
 import PromiseKit
 
-class MockAPIService: APIServiceProtocol {
+final class MockAPIService: APIServiceProtocol {
     let dataProvider: DataProvider
 
     init(dataProvider: DataProvider) {

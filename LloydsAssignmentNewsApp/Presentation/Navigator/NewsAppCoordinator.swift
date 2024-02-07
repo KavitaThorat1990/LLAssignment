@@ -7,7 +7,7 @@
 
 import UIKit
 
-class NewsAppCoordinator: Coordinator {
+final class NewsAppCoordinator: Coordinator {
     var navigationController: UINavigationController
 
     init(navigationController: UINavigationController) {

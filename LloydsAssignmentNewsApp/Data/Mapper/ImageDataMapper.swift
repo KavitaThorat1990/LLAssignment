@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ImageDataMapper: ImageDataMapperProtocol {
+final class ImageDataMapper: ImageDataMapperProtocol {
     /// Maps API response to domain model
     /// - Parameter imageData: The `Data` object to be mapped.
     /// - Returns: `UIImage` 

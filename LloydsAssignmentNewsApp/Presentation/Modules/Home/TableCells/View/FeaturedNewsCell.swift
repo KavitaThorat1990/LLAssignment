@@ -8,7 +8,7 @@
 import UIKit
 import SwiftUI
 
-class FeaturedNewsCell: UITableViewCell {
+final class FeaturedNewsCell: UITableViewCell {
     private var timer: Timer?
     var cellViewModel: FeaturedNewsCellViewModel = FeaturedNewsCellViewModel()
     var didSelectNews: ((ArticleDomainModel) -> ())?

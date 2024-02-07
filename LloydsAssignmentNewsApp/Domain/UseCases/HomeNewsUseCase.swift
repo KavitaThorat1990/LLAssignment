@@ -7,7 +7,7 @@
 
 import PromiseKit
 
-class HomeNewsUseCase: HomeNewsUseCaseProtocol {
+final class HomeNewsUseCase: HomeNewsUseCaseProtocol {
     /// repository to fetch data from api service
     private let repository: NewsListRepositoryProtocol
     init(repository: NewsListRepositoryProtocol) {

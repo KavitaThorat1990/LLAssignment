@@ -8,7 +8,7 @@
 import Foundation
 
 
-class NewsResponseDataMapper: NewsResponseDataMapperProtocol {
+final class NewsResponseDataMapper: NewsResponseDataMapperProtocol {
     
     /// Maps API response to domain model
     /// - Parameter response: The `NewsResponse` object to be mapped.

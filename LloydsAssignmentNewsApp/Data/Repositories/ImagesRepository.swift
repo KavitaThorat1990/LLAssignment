@@ -8,7 +8,7 @@
 import UIKit
 import PromiseKit
 
-class ImagesRepository: ImagesRepositoryProtocol {
+final class ImagesRepository: ImagesRepositoryProtocol {
     /// The service responsible for providing data fetching functionalities.
     private let apiService: APIServiceProtocol
     /// An object conforming to `ImageDataMapperProtocol` responsible for mapping data

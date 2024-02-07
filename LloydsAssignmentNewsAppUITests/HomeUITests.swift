@@ -8,7 +8,7 @@
 import XCTest
 @testable import LloydsAssignmentNewsApp
 
-class NewsUITests: XCTestCase {
+final class NewsUITests: XCTestCase {
     
     let app = XCUIApplication()
     
@@ -27,11 +27,7 @@ class NewsUITests: XCTestCase {
         let newsTable = app.tables[Constants.AccessibilityIds.newsListTable]
         XCTAssertTrue(newsTable.waitForExistence(timeout: 5.0), "News table not found")
 
-        // Continue with UI testing after the table exists
-
         let firstCell = newsTable.cells.element(boundBy: 0)
         XCTAssertTrue(firstCell.exists, "First news cell not found")
-
-        // Add additional assertions or interactions with the loaded cells
     }
 }

@@ -46,13 +46,6 @@ struct NewsDetailView: View {
                         .lineLimit(nil)
                 }
                 
-//                if let content = viewModel.newsContent() {
-//                    Text(content)
-//                        .font(.body)
-//                        .foregroundColor(.primary)
-//                        .lineLimit(nil)
-//                }
-
                 HStack {
                     Spacer()
                     Button(Constants.ButtonTitles.seeMore) {

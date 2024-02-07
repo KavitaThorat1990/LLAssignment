@@ -7,7 +7,7 @@
 
 import UIKit
 /// To maintain cache of images
-class ImageCache {
+final class ImageCache {
     static let shared = ImageCache()
     /// maximum count for images to store in cache
     private let maxItemsCount = 200

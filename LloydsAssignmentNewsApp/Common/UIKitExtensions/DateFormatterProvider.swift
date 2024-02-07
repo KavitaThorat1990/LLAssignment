@@ -7,7 +7,7 @@
 
 import Foundation
 
-class DateFormatterProvider: DateFormatterProviding {
+final class DateFormatterProvider: DateFormatterProviding {
     /// Create dateformatter based on format 
     func dateFormatter(for format: DateFormat) -> Formatter {
         let dateFormatter = DateFormatter()

@@ -27,7 +27,7 @@ final class NewsDetailsUITests: XCTestCase {
         let newsTable = app.tables[Constants.AccessibilityIds.newsListTable]
         XCTAssertTrue(newsTable.waitForExistence(timeout: 5.0), "News table not found")
 
-        // Tap on the first cell in the second section (replace with actual index)
+        // Tap on the first cell in the second section
         let cell = newsTable.cells.element(boundBy: 1)
         XCTAssertTrue(cell.exists, "News cell not found")
         cell.tap()

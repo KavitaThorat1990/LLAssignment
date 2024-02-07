@@ -12,9 +12,8 @@ protocol DataProvider {
     func loadImage(named imageName: String) throws -> Data
 }
 
-// Implement the LocalDataProvider
 
-class LocalDataProvider: DataProvider {
+final class LocalDataProvider: DataProvider {
     func fetchData<T: Decodable>(from endpoint: String) throws -> T {
         var jsonFile = ""
         switch endpoint {
@@ -57,7 +56,6 @@ class LocalDataProvider: DataProvider {
     }
 }
 
-// Define DataProviderError
 
 enum DataProviderError: Error {
     case fileNotFound

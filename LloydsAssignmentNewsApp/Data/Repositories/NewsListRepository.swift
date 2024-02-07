@@ -8,7 +8,7 @@
 import Foundation
 import PromiseKit
 
-class NewsListRepository: NewsListRepositoryProtocol {
+final class NewsListRepository: NewsListRepositoryProtocol {
     /// The service responsible for providing data fetching functionalities.
     private let apiService: APIServiceProtocol
     /// An object conforming to `NewsResponseDataMapperProtocol` responsible for mapping data

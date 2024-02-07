@@ -9,7 +9,7 @@ import Foundation
 import PromiseKit
 
 /// Responsible for fetching remote data using URLSession 
-class RemoteAPIService: APIServiceProtocol {
+final class RemoteAPIService: APIServiceProtocol {
   /// to fetch data from remote API
     func fetchData<T: Codable>(from endpoint: String) -> Promise<T> {
         return fetchDataWithParameters(from: endpoint, parameters: [:])
@@ -55,7 +55,9 @@ class RemoteAPIService: APIServiceProtocol {
                     let result = try decoder.decode(T.self, from: data)
                     seal.fulfill(result)
                 } catch {
+                    #if DEBUG
                     print(error)
+                    #endif
                     // Return APIError for decoding errors
                     do {
                         let decoder = JSONDecoder()

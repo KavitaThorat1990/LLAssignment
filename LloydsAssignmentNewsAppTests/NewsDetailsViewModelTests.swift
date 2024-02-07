@@ -29,10 +29,9 @@ final class NewsDetailsViewModelTests: XCTestCase {
     
     func testLoadImageSuccess() {
         let loadImageExpectation = XCTestExpectation(description: "Image loaded successfully")
-        // When
         viewModel?.loadImage()
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) { // Adjust the timeout as needed
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
             XCTAssertNotNil(self.viewModel?.downloadedImage)
             loadImageExpectation.fulfill()
         }
@@ -41,50 +40,32 @@ final class NewsDetailsViewModelTests: XCTestCase {
     }
 
     func testNewsImageUrl() {
-        // When
         let url = viewModel?.newsImageUrl()
-
-        // Then
         XCTAssertEqual(url, news?.imageUrl)
     }
 
     func testNewsTitle() {
-        // When
         let title = viewModel?.newsTitle()
-
-        // Then
         XCTAssertEqual(title, news?.title)
     }
 
     func testNewsPublishedAt() {
-        // When
         let publishedAt = viewModel?.newsPublishedAt()
-
-        // Then
         XCTAssertEqual(publishedAt, news?.updatedAt)
     }
 
     func testNewsAuthorAndSource() {
-        // When
         let authorAndSource = viewModel?.newsAuthorAndSource()
-
-        // Then
         XCTAssertEqual(authorAndSource, news?.newsSource)
     }
 
     func testNewsDescription() {
-        // When
         let description = viewModel?.newsDescription()
-
-        // Then
         XCTAssertEqual(description, news?.description)
     }
 
     func testNewsUrl() {
-        // When
         let url = viewModel?.newsUrl()
-
-        // Then
         XCTAssertEqual(url, URL(string: news?.url ?? ""))
     }
 }

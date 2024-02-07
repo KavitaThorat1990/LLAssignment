@@ -8,7 +8,7 @@
 import UIKit
 import SwiftUI
 
-class NewsDetailsViewController: UIViewController {
+final class NewsDetailsViewController: UIViewController {
     var viewModel: NewsDetailsViewModel?
     weak var coordinator: NewsAppCoordinator?
 

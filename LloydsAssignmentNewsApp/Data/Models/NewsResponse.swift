@@ -27,7 +27,7 @@ struct MediaMetadata: Codable {
 struct Media: Codable {
     let type: String
     let caption: String
-    let mediaMetadata: [MediaMetadata] // Use camelCase
+    let mediaMetadata: [MediaMetadata] 
     
     private enum CodingKeys: String, CodingKey {
         case type
@@ -106,6 +106,6 @@ struct Articles: Codable {
 /// NewsResponse model
 struct NewsResponse: Codable {
     let status: String
-    let numResults: Int   // Use camelCase
+    let numResults: Int
     let results: [Articles]
 }

@@ -9,7 +9,7 @@ import UIKit
 import PromiseKit
 import SwiftUI
 
-class HomeViewController: UIViewController {
+final class HomeViewController: UIViewController {
     
     private let tableView: UITableView = {
         let tableView = UITableView()
@@ -81,7 +81,6 @@ class HomeViewController: UIViewController {
                 self?.updateUI()
             }
             .catch {[weak self]  error in
-                // Handle the error
                 self?.handleAPIError(error)
             }
     }
@@ -166,7 +165,6 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-//        viewModel?.didSelectRowAt(indexPath: indexPath)
         if let news = viewModel?.getNewsForSection(section: indexPath.section)[indexPath.row] {
             coordinator?.navigateToNewsDetails(news)
         }

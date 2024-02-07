@@ -8,7 +8,7 @@
 import UIKit
 import PromiseKit
 
-class ImageUseCase: ImageUseCaseProtocol {
+final class ImageUseCase: ImageUseCaseProtocol {
     private let repository: ImagesRepositoryProtocol
     
     init(repository: ImagesRepositoryProtocol) {
