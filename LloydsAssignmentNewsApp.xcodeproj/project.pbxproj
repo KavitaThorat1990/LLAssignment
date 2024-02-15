@@ -23,6 +23,7 @@
 		FF3414622B7DE81A00C5DF96 /* HomeViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3414612B7DE81A00C5DF96 /* HomeViewModelProtocol.swift */; };
 		FF3414642B7DFC6700C5DF96 /* NewsDetailsViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3414632B7DFC6700C5DF96 /* NewsDetailsViewModelProtocol.swift */; };
 		FF3414682B7E076A00C5DF96 /* ImageCacheProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3414672B7E076A00C5DF96 /* ImageCacheProtocol.swift */; };
+		FF34146A2B7E2A4700C5DF96 /* URLSessionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3414692B7E2A4600C5DF96 /* URLSessionProvider.swift */; };
 		FF47B9492B6CDAFD00A31BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF47B9482B6CDAFD00A31BCC /* AppDelegate.swift */; };
 		FF47B9522B6CDB0000A31BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF47B9512B6CDB0000A31BCC /* Assets.xcassets */; };
 		FF47B9552B6CDB0000A31BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF47B9532B6CDB0000A31BCC /* LaunchScreen.storyboard */; };
@@ -107,6 +108,7 @@
 		FF3414612B7DE81A00C5DF96 /* HomeViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelProtocol.swift; sourceTree = "<group>"; };
 		FF3414632B7DFC6700C5DF96 /* NewsDetailsViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailsViewModelProtocol.swift; sourceTree = "<group>"; };
 		FF3414672B7E076A00C5DF96 /* ImageCacheProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheProtocol.swift; sourceTree = "<group>"; };
+		FF3414692B7E2A4600C5DF96 /* URLSessionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProvider.swift; sourceTree = "<group>"; };
 		FF47B9452B6CDAFD00A31BCC /* LloydsAssignmentNewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LloydsAssignmentNewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF47B9482B6CDAFD00A31BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF47B9512B6CDB0000A31BCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -430,6 +432,7 @@
 			isa = PBXGroup;
 			children = (
 				FF47B9D42B6E173E00A31BCC /* SecureURLSession.swift */,
+				FF3414692B7E2A4600C5DF96 /* URLSessionProvider.swift */,
 				FF47B9C82B6E079D00A31BCC /* RemoteAPIService.swift */,
 				FF47B9CA2B6E07BC00A31BCC /* APIServiceProtocol.swift */,
 				FF47B9CC2B6E088B00A31BCC /* APIError.swift */,
@@ -734,6 +737,7 @@
 				FF47B9EF2B6E5BD300A31BCC /* NewsTitleView.swift in Sources */,
 				FF47B9CF2B6E0C5E00A31BCC /* NewsResponseDataMapper.swift in Sources */,
 				FF47B9F12B6E5BD300A31BCC /* NewsCellViewModel.swift in Sources */,
+				FF34146A2B7E2A4700C5DF96 /* URLSessionProvider.swift in Sources */,
 				FF3414432B6FF32900C5DF96 /* MockAPIService.swift in Sources */,
 				FFD4D24B2B6F6528003714E0 /* NewsAppNavigator.swift in Sources */,
 				FF47B9DD2B6E19BB00A31BCC /* ImageUseCase.swift in Sources */,

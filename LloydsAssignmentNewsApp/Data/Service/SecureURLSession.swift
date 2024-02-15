@@ -8,7 +8,7 @@
 import Foundation
 
 /// To provide secure url session by handling authentication challenge
-final class SecureURLSession: NSObject {
+final class SecureURLSession: NSObject, URLSessionProvider {
     static let shared = SecureURLSession()
     lazy var urlSession: URLSession = {
         let configuration = URLSessionConfiguration.default

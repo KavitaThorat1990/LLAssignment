@@ -10,6 +10,12 @@ import PromiseKit
 
 /// Responsible for fetching remote data using URLSession 
 final class RemoteAPIService: APIServiceProtocol {
+    
+    let urlSessionProvider: URLSessionProvider
+    
+    init(urlSessionProvider: URLSessionProvider) {
+        self.urlSessionProvider = urlSessionProvider
+    }
   /// to fetch data from remote API
     func fetchData<T: Codable>(from endpoint: String) -> Promise<T> {
         return fetchDataWithParameters(from: endpoint, parameters: [:])
@@ -33,7 +39,7 @@ final class RemoteAPIService: APIServiceProtocol {
 
             let request = URLRequest(url: url)
 
-            SecureURLSession.shared.urlSession.dataTask(with: request) { (data, response, error) in
+            urlSessionProvider.urlSession.dataTask(with: request) { (data, response, error) in
                 if let error = error {
                     seal.reject(APIError.requestFailed(error))
                     return
@@ -75,7 +81,7 @@ final class RemoteAPIService: APIServiceProtocol {
     func downloadImage(from url: URL) -> Promise<Data> {
         return Promise { seal in
             
-            let task = SecureURLSession.shared.urlSession.dataTask(with: url) { data, _, error in
+            let task = urlSessionProvider.urlSession.dataTask(with: url) { data, _, error in
                 if let error = error {
                     seal.reject(error)
                     return
