@@ -24,7 +24,8 @@ struct UseCaseFactory {
     static func createImageUseCase(isMock: Bool = false) -> ImageUseCaseProtocol {
         let apiService: APIServiceProtocol = isMock ? MockAPIService(dataProvider: LocalDataProvider()) : RemoteAPIService()
         let mapper: ImageDataMapperProtocol = ImageDataMapper()
-        let repository: ImagesRepositoryProtocol = ImagesRepository(apiService: apiService, mapper: mapper)
+        let imageCache = ImageCache.shared
+        let repository: ImagesRepositoryProtocol = ImagesRepository(apiService: apiService, mapper: mapper, imageCache: imageCache)
         return ImageUseCase(repository: repository)
     }
 }

@@ -13,19 +13,22 @@ final class ImagesRepository: ImagesRepositoryProtocol {
     private let apiService: APIServiceProtocol
     /// An object conforming to `ImageDataMapperProtocol` responsible for mapping data
     private let mapper: ImageDataMapperProtocol
+    ///image cache to reuse images 
+    private let imageCache: ImageCacheProtocol
     
-    init(apiService: APIServiceProtocol, mapper: ImageDataMapperProtocol) {
+    init(apiService: APIServiceProtocol, mapper: ImageDataMapperProtocol, imageCache: ImageCacheProtocol) {
         self.apiService = apiService
         self.mapper = mapper
+        self.imageCache = imageCache
     }
     
     /// Responsible for fetching features news from api and mapping it to domain data
     ///  - Parameter url: Image url
     ///  - Returns:  Promise<UIImage> Downloaded  image
     func loadImage(from url: URL) -> Promise<UIImage> {
-        return Promise { seal in
+        return Promise {[imageCache] seal in
             // Check if the image is available in the cache
-            if let cachedImage = ImageCache.shared.getImage(for: url.absoluteString) {
+            if let cachedImage = imageCache.getImage(for: url.absoluteString) {
                 seal.fulfill(cachedImage)
                 return
             }
@@ -37,7 +40,7 @@ final class ImagesRepository: ImagesRepositoryProtocol {
                         return
                     }
                     // Cache the downloaded image
-                    ImageCache.shared.setImage(image, for: url.absoluteString)
+                    self?.imageCache.setImage(image, for: url.absoluteString)
                     seal.fulfill(image)
                 }
                 .catch { error in

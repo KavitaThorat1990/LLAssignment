@@ -8,7 +8,7 @@
 import UIKit
 import PromiseKit
 
-final class NewsDetailsViewModel: ObservableObject {
+final class NewsDetailsViewModel: ObservableObject, NewsDetailsViewModelProtocol {
     private var newsArticle: ArticleDomainModel
     @Published var downloadedImage: UIImage?
     private let imageUseCase: ImageUseCaseProtocol

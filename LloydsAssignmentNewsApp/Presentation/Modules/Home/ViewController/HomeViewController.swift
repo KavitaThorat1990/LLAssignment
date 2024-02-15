@@ -18,7 +18,7 @@ final class HomeViewController: UIViewController {
         return tableView
     }()
 
-    var viewModel: HomeViewModel?
+    var viewModel: HomeViewModelProtocol?
     private var featuredNewsCell: FeaturedNewsCell?
     weak var navigator: NewsAppNavigator?
 

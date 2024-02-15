@@ -9,7 +9,7 @@ import UIKit
 import SwiftUI
 
 final class NewsDetailsViewController: UIViewController {
-    var viewModel: NewsDetailsViewModel?
+    var viewModel: NewsDetailsViewModelProtocol?
     weak var Navigator: NewsAppNavigator?
 
     override func viewDidLoad() {
@@ -19,7 +19,7 @@ final class NewsDetailsViewController: UIViewController {
     
     private func setupSwiftUIView() {
         
-        guard let model = self.viewModel else {
+        guard let model = self.viewModel as? NewsDetailsViewModel else {
             return
         }
         let detailsView =  NewsDetailView(viewModel: model, openNewsURL: { [weak self] in

@@ -8,13 +8,12 @@
 import Foundation
 import PromiseKit
 
-final class HomeViewModel {
+final class HomeViewModel: HomeViewModelProtocol {
     /// contains featured news displayed at top section in home screen
     private var featuredNews: [ArticleDomainModel] = []
     private var categories: [String] = Constants.defaultCategories
     /// dictionary to maintain news category wise
     private var categorisedNews: [String: [ArticleDomainModel]] = [:]
-
     private let homeNewsUseCase: HomeNewsUseCaseProtocol
 
     init(homeNewsUseCase: HomeNewsUseCaseProtocol = UseCaseFactory.createHomeNewsUseCase()) {
